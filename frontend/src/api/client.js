@@ -2,7 +2,7 @@ import axios from "axios";
 import io from "socket.io-client";
 
 // API Configuration
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://vitai-spurhacks.onrender.com";
 
 class APIClient {
   constructor() {
